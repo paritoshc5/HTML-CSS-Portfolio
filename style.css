@@ -1,0 +1,174 @@
+.display-5 {
+    font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-style: normal;
+    padding: 5pxpx;
+      }
+
+.pro {
+    text-decoration: underline;
+    font-size: 35px;
+}
+
+.px-4 {
+    background-color: #FAEDCE;
+}
+
+.text-primary {
+  color: #ffc107;
+}
+
+body{margin-top:20px;}
+.resume .resume-title {
+  font-size: 26px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #222222;
+}
+
+.resume .resume-item {
+  padding: 0 0 20px 20px;
+  margin-top: -2px;
+  border-left: 3px solid #FAEDCE;
+  position: relative;
+}
+
+.resume .resume-item h4 {
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #BC9F8B;
+  margin-bottom: 10px;
+}
+
+.resume .resume-item h5 {
+  font-size: 16px;
+  background: #E7E8D8;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: BC9F8B;
+}
+
+.resume .resume-item ul {
+  padding-left: 20px;
+}
+
+.resume .resume-item ul li {
+  padding-bottom: 10px;
+}
+
+
+
+.resume .resume-item::before {
+  content: "";
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50px;
+  left: -9px;
+  top: 0;
+  background: #fff;
+  border: 8px solid #FAEDCE;
+}
+
+#resume {
+  color: #A28B55;
+}
+
+.skills {
+  display: flex;
+}
+
+
+.wd_img {
+  float: left;
+  border-radius: 20%;
+
+}
+
+.jp {
+  float: left;
+  border-radius: 20%;
+}
+
+
+.topic {
+  font-size: 20px;
+  font-weight: bold;
+  color: #c4b99e;
+}
+
+.title {
+  color: #A28B55;
+}
+
+@media (max-width: 680px) {
+  .title {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .skill4 {
+    width: 100px;
+    margin-bottom: 30px;
+    display: inline;
+    padding: 10px;
+  }
+
+  .skills {
+    width: 100%;
+    margin-bottom: 30px;
+    display: inline;
+    object-fit: cover;
+    text-align: justify;
+  } 
+
+  .topic {
+    margin-top: 10px;
+  }
+
+  .about_wd {
+    margin: 10px;
+    margin-bottom: 30px;
+  }
+
+  .about_jp {
+    margin: 10px;
+  }
+}
+
+.Touch {
+  color: #E7D4B5;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.about_content {
+  color: #A28B55;
+  font-size: 20px;
+}
+
+.about_wd {
+  color:#7E6363;
+}
+
+.about_jp {
+  color: #7E6363;
+}
+
+.hobby {
+  color: #503C3C;
+  font-family: "Oswald", sans-serif;
+  font-size: 25px;
+}
+
+.btn:hover {
+  background-color: #A28B55;
+}
+
+
+
